@@ -1,0 +1,55 @@
+Question 1: 
+For given JSON iterate over all for loops (for, for in, for of, for each)
+
+Answer:
+Once the JSON array is converted into a JavaScript object, you can use a loop such as a for loop, a forEach loop, or a for…in loop to iterate through each object in the array.
+
+During each iteration, you can access the properties of each JSON object using the dot notation or bracket notation
+
+
+Example: 
+
+
+let person = {
+    'firstName': 'Jayachandran',
+    'lastName': 'Kumarsamy',
+    'age': 27,
+    'isStudent': true,
+    'hobbies': ['programming', 'reading', 'fishing']
+};
+
+
+for (let key in person) {
+    console.log(key, person[key]);
+}
+
+console.log(Object.keys);
+
+
+
+Answer:
+
+firstName Jayachandran
+lastName Kumarsamy
+age 27
+isStudent true
+hobbies [ 'programming', 'reading', 'fishing' ]
+[Function: keys]
+
+
+
+
+
+
+
+Question 2: 
+Create your own resume in JSON format.
+
+Answer:
+
+
+
+
+
+
+'{"name":"Jayachandran","contactDetails":{"email":"jayachandran.k30@gmail.com","phone":8778117986},"skills":["programming","C++","JavaScript"]}'
